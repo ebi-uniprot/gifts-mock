@@ -1,0 +1,49 @@
+{
+    "total": 16,
+    "start": 1,
+    "results": [{
+        "ensembl": {
+            "gene": "ENSGALG00000002037",
+            "transcript": "ENSTALG00000002037",
+            "protein": "ENSPALG00000002037",
+            "version": "v1",
+            "start": 11,
+            "end": 7373
+        },
+        "uniprot": {
+            "accession": "P024560",
+            "version": "78"
+        },
+        "taxonomy": {
+            "taxid": 1111,
+            "name": "Gallus gallus"
+        },
+        "status": "unreviewed"
+    }, {
+        "ensembl": {
+            "gene": "ENSGALG00000002037",
+            "transcript": "ENSTALG00000002037",
+            "protein": "ENSPALG00000002037",
+            "version": "v1",
+            "start": 11,
+            "end": 7373
+        },
+        "uniprot": {
+            "accession": "P024560",
+            "version": "78"
+        },
+        "taxonomy": {
+            "taxid": 1111,
+            "name": "Gallus gallus"
+        },
+        "status": "unreviewed"
+    }],
+    "facets": [
+        {
+            "name": "status",
+            "items": [
+                "unreviewed", ""
+            ]
+        }
+    ]
+}
