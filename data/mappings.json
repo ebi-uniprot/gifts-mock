@@ -2,36 +2,39 @@
     "total": 16,
     "start": 1,
     "results": [{
-        "ensembl": {
+        "ensembl": [{
             "gene": "ENSGALG00000002037",
             "transcript": "ENSTALG00000002037",
             "protein": "ENSPALG00000002037",
             "version": "v1",
             "start": 11,
             "end": 7373
-        },
-        "uniprot": {
+        }],
+        "uniprot": [{
             "accession": "P024560",
             "version": "78"
-        },
+        }],
         "taxonomy": {
             "taxid": 1111,
             "name": "Gallus gallus"
         },
         "status": "unreviewed"
     }, {
-        "ensembl": {
+        "ensembl": [{
             "gene": "ENSGALG00000002037",
             "transcript": "ENSTALG00000002037",
             "protein": "ENSPALG00000002037",
             "version": "v1",
             "start": 11,
             "end": 7373
-        },
-        "uniprot": {
+        }],
+        "uniprot": [{
             "accession": "P024560",
             "version": "78"
-        },
+        },{
+            "accession": "P024560_1",
+            "version": "78"
+        }],
         "taxonomy": {
             "taxid": 1111,
             "name": "Gallus gallus"
@@ -42,8 +45,29 @@
         {
             "name": "status",
             "items": [
-                "unreviewed", ""
+                "unreviewed", "accepted", "under review", "rejected"
             ]
+        }, {
+            "name":"organism",
+            "items":[
+                "Homo sapiens", "Mus musculus", "Rattus novegicus", "Gallus gallus"
+            ]
+        }, {
+            "name": "sequence",
+            "items":[
+                "exact match", "small difference", "mismatch"
+            ]
+        }, {
+            "name": "mappings",
+            "items": [
+                "unmapped", "multiple ENSG", "multiple UniProt"
+            ]
+        }
+    ],
+    "activeFacets": [
+        {
+            "name": "status",
+            "value": "unreviewed"
         }
     ]
 }
