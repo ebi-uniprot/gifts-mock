@@ -11,7 +11,7 @@ class MappingsService {
 
     initMock() {
         this.mock = nock(baseUrl);
-        this.mock.get('/gifts/mappings').reply(200, mappings);
+        this.mock.persist().get('/gifts/mappings').reply(200, mappings);
     }
 
 }
