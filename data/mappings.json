@@ -2,191 +2,246 @@
     "total": 3,
     "start": 1,
     "results": [{
-            "timeMapped": "2008-09-29",
-            "uniprotRelease": "2018_06",
-            "ensemblRelease": "87",
-            "uniprotEntry": [{
-                "uniprotAccession": "P02469",
-                "entryType": "Swiss-Prot",
-                "entryVersion": "105",
-                "sequenceVersion": "3",
-                "upi": "string",
-                "md5": "string",
-                "ensemblDerived": "false",
-                "isoform": "false"
-            }],
-            "ensemblTranscript": [{
-                "enstId": "ENSGALT00001",
-                "enstVersion": "3",
-                "upi": "string",
-                "biotype": "string",
-                "deleted": "true",
-                "seqRegionStart": "3",
-                "seqRegionEnd": "3",
-                "ensgId": "ENSGALG00001"
-            }],
             "taxonomy": {
                 "specie": "Gallus Gallus",
                 "ensemblTaxId": "9031",
                 "uniprotTaxId": "9031"
             },
-            "annotation": {
-                "status": "UNDER_REVIEW",
-                "user": "string",
-                "comment": [{
-                    "text": "comment 1",
-                    "timeAdded": "2008-11-15",
-                    "user": "string"
-                }, {
-                    "text": "comment 2",
-                    "timeAdded": "2008-11-15",
-                    "user": "string"
-                }],
-                "label": {
-                    "text": "LABEL1",
-                    "timeAdded": "2017-05-15",
-                    "user": "string"
+            "entryMapping": [{
+                "timeMapped": "2008-09-29",
+                "uniprotRelease": "2018_06",
+                "ensemblRelease": "87",
+                "uniprotEntry": {
+                    "uniprotAccession": "P02469",
+                    "entryType": "Swiss-Prot",
+                    "entryVersion": "105",
+                    "sequenceVersion": "3",
+                    "upi": "string",
+                    "md5": "string",
+                    "ensemblDerived": "false",
+                    "isoform": "false"
+                },
+                "ensemblTranscript": {
+                    "enstId": "ENSGALT00001",
+                    "enstVersion": "3",
+                    "upi": "string",
+                    "biotype": "string",
+                    "deleted": "true",
+                    "seqRegionStart": "3",
+                    "seqRegionEnd": "3",
+                    "ensgId": "ENSGALG00001"
+                },
+                "annotation": {
+                    "status": "UNDER_REVIEW",
+                    "user": "string",
+                    "comment": [{
+                        "text": "comment 1",
+                        "timeAdded": "2008-11-15",
+                        "user": "string"
+                    }, {
+                        "text": "comment 2",
+                        "timeAdded": "2008-11-15",
+                        "user": "string"
+                    }],
+                    "label": {
+                        "text": "LABEL1",
+                        "timeAdded": "2017-05-15",
+                        "user": "string"
+                    }
                 }
-            }
+            }]
         },
         {
-            "timeMapped": "2008-09-29",
-            "uniprotRelease": "2018_06",
-            "ensemblRelease": "87",
-            "uniprotEntry": [{
-                "uniprotAccession": "O013152",
-                "entryType": "Swiss-Prot",
-                "entryVersion": "105",
-                "sequenceVersion": "3",
-                "upi": "string",
-                "md5": "string",
-                "ensemblDerived": "false",
-                "isoform": "false"
-            }],
-            "ensemblTranscript": [{
-                "enstId": "ENSGALT00002",
-                "enstVersion": "3",
-                "upi": "string",
-                "biotype": "string",
-                "deleted": "true",
-                "seqRegionStart": "3",
-                "seqRegionEnd": "3",
-                "ensgId": "ENSGALG00002"
-            }, {
-                "enstId": "ENSGALT00003",
-                "enstVersion": "3",
-                "upi": "string",
-                "biotype": "string",
-                "deleted": "true",
-                "seqRegionStart": "3",
-                "seqRegionEnd": "3",
-                "ensgId": "ENSGALG00003"
-            }],
             "taxonomy": {
                 "specie": "Gallus Gallus",
                 "ensemblTaxId": "9031",
                 "uniprotTaxId": "9031"
             },
-            "annotation": {
-                "status": "UNDER_REVIEW",
-                "user": "string",
-                "comment": [{
-                    "text": "comment 1",
-                    "timeAdded": "2008-11-15",
-                    "user": "string"
-                }, {
-                    "text": "comment 2",
-                    "timeAdded": "2008-11-15",
-                    "user": "string"
-                }],
-                "label": {
-                    "text": "LABEL1",
-                    "timeAdded": "2017-05-15",
-                    "user": "string"
+            "entryMapping": [{
+                    "timeMapped": "2008-09-29",
+                    "uniprotRelease": "2018_06",
+                    "ensemblRelease": "87",
+                    "uniprotEntry": {
+                        "uniprotAccession": "O013152",
+                        "entryType": "Swiss-Prot",
+                        "entryVersion": "105",
+                        "sequenceVersion": "3",
+                        "upi": "string",
+                        "md5": "string",
+                        "ensemblDerived": "false",
+                        "isoform": "false"
+                    },
+                    "ensemblTranscript": {
+                        "enstId": "ENSGALT00003",
+                        "enstVersion": "3",
+                        "upi": "string",
+                        "biotype": "string",
+                        "deleted": "true",
+                        "seqRegionStart": "3",
+                        "seqRegionEnd": "3",
+                        "ensgId": "ENSGALG00003"
+                    },
+                    "annotation": {
+                        "status": "UNDER_REVIEW",
+                        "user": "string",
+                        "comment": [{
+                                "text": "comment 1",
+                                "timeAdded": "2008-11-15",
+                                "user": "string"
+                            },
+                            {
+                                "text": "comment 2",
+                                "timeAdded": "2008-11-15",
+                                "user": "string"
+                            }
+                        ],
+                        "label": {
+                            "text": "LABEL1",
+                            "timeAdded": "2017-05-15",
+                            "user": "string"
+                        }
+                    }
+                },
+                {
+                    "timeMapped": "2008-09-29",
+                    "uniprotRelease": "2018_06",
+                    "ensemblRelease": "87",
+                    "uniprotEntry": {
+                        "uniprotAccession": "O013152",
+                        "entryType": "Swiss-Prot",
+                        "entryVersion": "105",
+                        "sequenceVersion": "3",
+                        "upi": "string",
+                        "md5": "string",
+                        "ensemblDerived": "false",
+                        "isoform": "false"
+                    },
+                    "ensemblTranscript": {
+                        "enstId": "ENSGALT00003",
+                        "enstVersion": "3",
+                        "upi": "string",
+                        "biotype": "string",
+                        "deleted": "true",
+                        "seqRegionStart": "3",
+                        "seqRegionEnd": "3",
+                        "ensgId": "ENSGALG00003"
+                    },
+                    "annotation": {
+                        "status": "UNDER_REVIEW",
+                        "user": "string",
+                        "comment": [{
+                                "text": "comment 1",
+                                "timeAdded": "2008-11-15",
+                                "user": "string"
+                            },
+                            {
+                                "text": "comment 2",
+                                "timeAdded": "2008-11-15",
+                                "user": "string"
+                            }
+                        ],
+                        "label": {
+                            "text": "LABEL1",
+                            "timeAdded": "2017-05-15",
+                            "user": "string"
+                        }
+                    }
                 }
-            }
+            ]
         },
         {
-            "timeMapped": "2008-09-29",
-            "uniprotRelease": "2018_06",
-            "ensemblRelease": "87",
-            "uniprotEntry": [{
-                "uniprotAccession": "P02460",
-                "entryType": "Swiss-Prot",
-                "entryVersion": "105",
-                "sequenceVersion": "3",
-                "upi": "string",
-                "md5": "string",
-                "ensemblDerived": "false",
-                "isoform": "false"
-            }, {
-                "uniprotAccession": "P02460_1",
-                "entryType": "Swiss-Prot",
-                "entryVersion": "105",
-                "sequenceVersion": "3",
-                "upi": "string",
-                "md5": "string",
-                "ensemblDerived": "false",
-                "isoform": "true"
-            }],
-            "ensemblTranscript": [{
-                "enstId": "ENSGALT00004",
-                "enstVersion": "3",
-                "upi": "string",
-                "biotype": "string",
-                "deleted": "true",
-                "seqRegionStart": "3",
-                "seqRegionEnd": "3",
-                "ensgId": "ENSGALG00004"
-            }],
             "taxonomy": {
                 "specie": "Gallus Gallus",
                 "ensemblTaxId": "9031",
                 "uniprotTaxId": "9031"
             },
-            "annotation": {
-                "status": "UNDER_REVIEW",
-                "user": "string",
-                "comment": [{
-                    "text": "comment 1",
-                    "timeAdded": "2008-11-15",
-                    "user": "string"
-                }, {
-                    "text": "comment 2",
-                    "timeAdded": "2008-11-15",
-                    "user": "string"
-                }],
-                "label": {
-                    "text": "LABEL1",
-                    "timeAdded": "2017-05-15",
-                    "user": "string"
+            "entryMapping": [{
+                    "timeMapped": "2008-09-29",
+                    "uniprotRelease": "2018_06",
+                    "ensemblRelease": "87",
+                    "uniprotEntry": {
+                        "uniprotAccession": "P02460",
+                        "entryType": "Swiss-Prot",
+                        "entryVersion": "105",
+                        "sequenceVersion": "3",
+                        "upi": "string",
+                        "md5": "string",
+                        "ensemblDerived": "false",
+                        "isoform": "false"
+                    },
+                    "ensemblTranscript": {
+                        "enstId": "ENSGALT00004",
+                        "enstVersion": "3",
+                        "upi": "string",
+                        "biotype": "string",
+                        "deleted": "true",
+                        "seqRegionStart": "3",
+                        "seqRegionEnd": "3",
+                        "ensgId": "ENSGALG00004"
+                    },
+                    "annotation": {
+                        "status": "UNDER_REVIEW",
+                        "user": "string",
+                        "comment": [{
+                            "text": "comment 1",
+                            "timeAdded": "2008-11-15",
+                            "user": "string"
+                        }, {
+                            "text": "comment 2",
+                            "timeAdded": "2008-11-15",
+                            "user": "string"
+                        }],
+                        "label": {
+                            "text": "LABEL1",
+                            "timeAdded": "2017-05-15",
+                            "user": "string"
+                        }
+                    }
+                },
+                {
+                    "timeMapped": "2008-09-29",
+                    "uniprotRelease": "2018_06",
+                    "ensemblRelease": "87",
+                    "uniprotEntry": {
+                        "uniprotAccession": "P02460_1",
+                        "entryType": "Swiss-Prot",
+                        "entryVersion": "105",
+                        "sequenceVersion": "3",
+                        "upi": "string",
+                        "md5": "string",
+                        "ensemblDerived": "false",
+                        "isoform": "true"
+                    },
+                    "ensemblTranscript": {
+                        "enstId": "ENSGALT00004",
+                        "enstVersion": "3",
+                        "upi": "string",
+                        "biotype": "string",
+                        "deleted": "true",
+                        "seqRegionStart": "3",
+                        "seqRegionEnd": "3",
+                        "ensgId": "ENSGALG00004"
+                    },
+                    "annotation": {
+                        "status": "UNDER_REVIEW",
+                        "user": "string",
+                        "comment": [{
+                            "text": "comment 1",
+                            "timeAdded": "2008-11-15",
+                            "user": "string"
+                        }, {
+                            "text": "comment 2",
+                            "timeAdded": "2008-11-15",
+                            "user": "string"
+                        }],
+                        "label": {
+                            "text": "LABEL1",
+                            "timeAdded": "2017-05-15",
+                            "user": "string"
+                        }
+                    }
                 }
-            }
+            ]
         }
-    ],
-    "facets": [{
-        "name": "status",
-        "items": [
-            "unreviewed", "accepted", "under review", "rejected"
-        ]
-    }, {
-        "name": "organism",
-        "items": [
-            "Homo sapiens", "Mus musculus", "Rattus novegicus", "Gallus gallus"
-        ]
-    }, {
-        "name": "sequence",
-        "items": [
-            "exact match", "small difference", "mismatch"
-        ]
-    }, {
-        "name": "mappings",
-        "items": [
-            "unmapped", "multiple ENSG", "multiple UniProt"
-        ]
-    }],
-    "activeFacets": [{
-        "name": "status",
-        "value": "unreviewed"
-    }]
+    ]
 }
