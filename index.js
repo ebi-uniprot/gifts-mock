@@ -15,21 +15,26 @@ app.use((req, res, next) => {
 
 app.use(express.static('public'));
 
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({
+    extended: false
+}));
 app.use(bodyParser.json());
 
 const mappingsService = new MappingService();
 mappingsService.initMock();
 
 
-function _getRequestHandler(){
-	return (req, res) => {
+function _getRequestHandler() {
+    return (req, res) => {
         axios.get(baseUrl + req.url)
-            .then(d =>  res.send(d.data))
-            .catch(e=> console.log(e));
-	}
+            .then(d => res.send(d.data))
+            .catch(e => console.log(e));
+    }
 };
 
 app.get('/gifts/mappings', _getRequestHandler());
+app.get('/gifts/mapping/:id', _getRequestHandler());
+app.get('/gifts/comments/:id', _getRequestHandler());
+
 
 app.listen(3000, () => console.log('Listening on port 3000'));

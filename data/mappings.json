@@ -9,6 +9,7 @@
                 "uniprotTaxId": "9031"
             },
             "entryMapping": [{
+                "mappingId": 1434352,
                 "timeMapped": "2008-09-29",
                 "uniprotRelease": "2018_06",
                 "ensemblRelease": "87",
@@ -32,24 +33,7 @@
                     "seqRegionEnd": "3",
                     "ensgId": "ENSGALG00001"
                 },
-                "annotation": {
-                    "status": "UNDER_REVIEW",
-                    "user": "string",
-                    "comment": [{
-                        "text": "comment 1",
-                        "timeAdded": "2008-11-15",
-                        "user": "string"
-                    }, {
-                        "text": "comment 2",
-                        "timeAdded": "2008-11-15",
-                        "user": "string"
-                    }],
-                    "label": {
-                        "text": "LABEL1",
-                        "timeAdded": "2017-05-15",
-                        "user": "string"
-                    }
-                }
+                "status": "UNDER_REVIEW"
             }]
         },
         {
@@ -59,6 +43,7 @@
                 "uniprotTaxId": "9031"
             },
             "entryMapping": [{
+                    "mappingId": 14342452,
                     "timeMapped": "2008-09-29",
                     "uniprotRelease": "2018_06",
                     "ensemblRelease": "87",
@@ -82,28 +67,10 @@
                         "seqRegionEnd": "3",
                         "ensgId": "ENSGALG00003"
                     },
-                    "annotation": {
-                        "status": "UNDER_REVIEW",
-                        "user": "string",
-                        "comment": [{
-                                "text": "comment 1",
-                                "timeAdded": "2008-11-15",
-                                "user": "string"
-                            },
-                            {
-                                "text": "comment 2",
-                                "timeAdded": "2008-11-15",
-                                "user": "string"
-                            }
-                        ],
-                        "label": {
-                            "text": "LABEL1",
-                            "timeAdded": "2017-05-15",
-                            "user": "string"
-                        }
-                    }
+                    "status": "UNDER_REVIEW"
                 },
                 {
+                    "mappingId": 143438762,
                     "timeMapped": "2008-09-29",
                     "uniprotRelease": "2018_06",
                     "ensemblRelease": "87",
@@ -127,26 +94,7 @@
                         "seqRegionEnd": "3",
                         "ensgId": "ENSGALG00003"
                     },
-                    "annotation": {
-                        "status": "UNDER_REVIEW",
-                        "user": "string",
-                        "comment": [{
-                                "text": "comment 1",
-                                "timeAdded": "2008-11-15",
-                                "user": "string"
-                            },
-                            {
-                                "text": "comment 2",
-                                "timeAdded": "2008-11-15",
-                                "user": "string"
-                            }
-                        ],
-                        "label": {
-                            "text": "LABEL1",
-                            "timeAdded": "2017-05-15",
-                            "user": "string"
-                        }
-                    }
+                    "status": "UNDER_REVIEW"
                 }
             ]
         },
@@ -157,6 +105,7 @@
                 "uniprotTaxId": "9031"
             },
             "entryMapping": [{
+                    "mappingId": 14344452,
                     "timeMapped": "2008-09-29",
                     "uniprotRelease": "2018_06",
                     "ensemblRelease": "87",
@@ -180,26 +129,10 @@
                         "seqRegionEnd": "3",
                         "ensgId": "ENSGALG00004"
                     },
-                    "annotation": {
-                        "status": "UNDER_REVIEW",
-                        "user": "string",
-                        "comment": [{
-                            "text": "comment 1",
-                            "timeAdded": "2008-11-15",
-                            "user": "string"
-                        }, {
-                            "text": "comment 2",
-                            "timeAdded": "2008-11-15",
-                            "user": "string"
-                        }],
-                        "label": {
-                            "text": "LABEL1",
-                            "timeAdded": "2017-05-15",
-                            "user": "string"
-                        }
-                    }
+                    "status": "UNDER_REVIEW"
                 },
                 {
+                    "mappingId": 14326752,
                     "timeMapped": "2008-09-29",
                     "uniprotRelease": "2018_06",
                     "ensemblRelease": "87",
@@ -223,24 +156,7 @@
                         "seqRegionEnd": "3",
                         "ensgId": "ENSGALG00004"
                     },
-                    "annotation": {
-                        "status": "UNDER_REVIEW",
-                        "user": "string",
-                        "comment": [{
-                            "text": "comment 1",
-                            "timeAdded": "2008-11-15",
-                            "user": "string"
-                        }, {
-                            "text": "comment 2",
-                            "timeAdded": "2008-11-15",
-                            "user": "string"
-                        }],
-                        "label": {
-                            "text": "LABEL1",
-                            "timeAdded": "2017-05-15",
-                            "user": "string"
-                        }
-                    }
+                    "status": "UNDER_REVIEW"
                 }
             ]
         }
