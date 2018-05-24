@@ -1,6 +1,7 @@
 {
     "total": 3,
-    "start": 1,
+    "offset": 1,
+    "limit": 10,
     "results": [{
             "taxonomy": {
                 "specie": "Gallus Gallus",
@@ -22,7 +23,7 @@
                     "isoform": "false"
                 },
                 "ensemblTranscript": {
-                    "enstId": "ENSGALT00001",
+                    "enstId": "ENSTALT00001",
                     "enstVersion": "3",
                     "upi": "string",
                     "biotype": "string",
@@ -72,7 +73,7 @@
                         "isoform": "false"
                     },
                     "ensemblTranscript": {
-                        "enstId": "ENSGALT00003",
+                        "enstId": "ENSTALT00003",
                         "enstVersion": "3",
                         "upi": "string",
                         "biotype": "string",
@@ -107,7 +108,7 @@
                     "uniprotRelease": "2018_06",
                     "ensemblRelease": "87",
                     "uniprotEntry": {
-                        "uniprotAccession": "O013152",
+                        "uniprotAccession": "O013154",
                         "entryType": "Swiss-Prot",
                         "entryVersion": "105",
                         "sequenceVersion": "3",
@@ -117,7 +118,7 @@
                         "isoform": "false"
                     },
                     "ensemblTranscript": {
-                        "enstId": "ENSGALT00003",
+                        "enstId": "ENSTALT00003",
                         "enstVersion": "3",
                         "upi": "string",
                         "biotype": "string",
@@ -170,7 +171,7 @@
                         "isoform": "false"
                     },
                     "ensemblTranscript": {
-                        "enstId": "ENSGALT00004",
+                        "enstId": "ENSTALT00004",
                         "enstVersion": "3",
                         "upi": "string",
                         "biotype": "string",
@@ -213,7 +214,7 @@
                         "isoform": "true"
                     },
                     "ensemblTranscript": {
-                        "enstId": "ENSGALT00004",
+                        "enstId": "ENSTALT00004",
                         "enstVersion": "3",
                         "upi": "string",
                         "biotype": "string",
@@ -243,5 +244,66 @@
                 }
             ]
         }
-    ]
+    ],
+    "facets": [{
+        "name": "status",
+        "label": "Status",
+        "items": [{
+            "name": "unreviewed",
+            "label": "Unreviewed"
+        }, {
+            "name": "accepted",
+            "label": "Accepted"
+        }, {
+            "name": "under_review",
+            "label": "Under Review"
+        }, {
+            "name": "rejected",
+            "label": "Rejected"
+        }]
+    }, {
+        "name": "organism",
+        "label": "Organism",
+        "items": [{
+            "name": "9606",
+            "label": "Homo sapiens",
+            "active": true
+        }, {
+            "name": "1234",
+            "label": "Mus musculus"
+        }, {
+            "name": "4321",
+            "label": "Rattus novegicus"
+        }, {
+            "name": "7654",
+            "label": "Gallus gallus"
+        }]
+    }, {
+        "name": "sequence",
+        "label": "Sequence",
+        "items": [{
+            "name": "exact",
+            "label": "Exact match"
+        }, {
+            "name": "small_diff",
+            "label": "Small difference",
+            "active": true
+        }, {
+            "name": "mismatch",
+            "label": "Mismatch"
+        }]
+    }, {
+        "name": "mappings",
+        "label": "Type",
+        "items": [{
+            "name": "unmapped",
+            "label": "Unmapped"
+        }, {
+            "name": "mult_ENST",
+            "label": "Multiple ENSTs"
+        }, {
+            "name": "mult_UniProt",
+            "label": "Multiple UniProt"
+        }]
+    }]
 }
