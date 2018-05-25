@@ -33,7 +33,7 @@
                     "seqRegionEnd": "3",
                     "ensgId": "ENSGALG00001"
                 },
-                "status": "UNDER_REVIEW"
+                "status": "UNREVIEWED"
             }]
         },
         {
@@ -129,7 +129,7 @@
                         "seqRegionEnd": "3",
                         "ensgId": "ENSGALG00004"
                     },
-                    "status": "UNDER_REVIEW"
+                    "status": "REJECTED"
                 },
                 {
                     "mappingId": 14326752,
@@ -156,7 +156,7 @@
                         "seqRegionEnd": "3",
                         "ensgId": "ENSGALG00004"
                     },
-                    "status": "UNDER_REVIEW"
+                    "status": "ACCEPTED"
                 }
             ]
         }
@@ -165,16 +165,16 @@
         "name": "status",
         "label": "Status",
         "items": [{
-            "name": "unreviewed",
+            "name": "UNREVIEWED",
             "label": "Unreviewed"
         }, {
-            "name": "accepted",
+            "name": "ACCEPTED",
             "label": "Accepted"
         }, {
-            "name": "under_review",
+            "name": "UNDER_REVIEW",
             "label": "Under Review"
         }, {
-            "name": "rejected",
+            "name": "REJECTED",
             "label": "Rejected"
         }]
     }, {
