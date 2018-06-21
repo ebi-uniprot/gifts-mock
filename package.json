@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start-db": "./node_modules/.bin/json-server --watch ./data/db.json",
+    "start-db": "./node_modules/.bin/json-server --watch ./data/db.json --routes api-routes.json",
     "start": "babel-watch index.js"
   },
   "dependencies": {
