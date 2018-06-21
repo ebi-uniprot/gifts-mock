@@ -1,5 +1,5 @@
 {
-  "/api/search/:term": "/search",
+  "/api/search/*": "/search/?$1",
   "/api/mappings/get/:id": "/mappings?mapping.mappingId=:id",
   "/api/mappings/:id": "/mappings/:id",
   "/api/*": "/$1"
