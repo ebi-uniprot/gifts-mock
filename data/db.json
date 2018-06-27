@@ -1,6 +1,5 @@
 {
-  "mappings": [
-    {
+  "mappings": [{
       "id": 1,
       "taxonomy": {
         "specie": "Gallus Gallus",
@@ -33,8 +32,7 @@
           "ensgId": "ENSGALG00003",
           "sequence": "ACUACUAGCUAGCUGGCGAUCGAUCGAUCGAUGCAUGCAUCGUACGUAGCUAGCAUCGAUGCUAGCUAGCUACGUAUUCGCGCGAUAGCAUGC"
         },
-        "comments": [
-          {
+        "comments": [{
             "text": "This is a really nice mapping",
             "timeAdded": "2008-11-15",
             "user": "Jayde"
@@ -62,35 +60,33 @@
         ],
         "status": "REVIEWED"
       },
-      "relatedMappings": [
-        {
-          "mappingId": 14326752,
-          "timeMapped": "2008-09-29",
-          "uniprotRelease": "2018_06",
-          "ensemblRelease": "87",
-          "uniprotEntry": {
-            "uniprotAccession": "O013154",
-            "entryType": "Swiss-Prot",
-            "entryVersion": "105",
-            "sequenceVersion": "3",
-            "upi": "string",
-            "md5": "string",
-            "ensemblDerived": "false",
-            "isoform": "false"
-          },
-          "ensemblTranscript": {
-            "enstId": "ENSTALT00003",
-            "enstVersion": "3",
-            "upi": "string",
-            "biotype": "string",
-            "deleted": "true",
-            "seqRegionStart": "3",
-            "seqRegionEnd": "3",
-            "ensgId": "ENSGALG00003"
-          },
-          "status": "UNDER_REVIEW"
-        }
-      ]
+      "relatedMappings": [{
+        "mappingId": 14326752,
+        "timeMapped": "2008-09-29",
+        "uniprotRelease": "2018_06",
+        "ensemblRelease": "87",
+        "uniprotEntry": {
+          "uniprotAccession": "O013154",
+          "entryType": "Swiss-Prot",
+          "entryVersion": "105",
+          "sequenceVersion": "3",
+          "upi": "string",
+          "md5": "string",
+          "ensemblDerived": "false",
+          "isoform": "false"
+        },
+        "ensemblTranscript": {
+          "enstId": "ENSTALT00003",
+          "enstVersion": "3",
+          "upi": "string",
+          "biotype": "string",
+          "deleted": "true",
+          "seqRegionStart": "3",
+          "seqRegionEnd": "3",
+          "ensgId": "ENSGALG00003"
+        },
+        "status": "UNDER_REVIEW"
+      }]
     },
     {
       "id": 2,
@@ -127,14 +123,59 @@
         },
         "status": "UNDER_REVIEW"
       },
-      "relatedMappings": [
-        {
-          "mappingId": 14342452,
+      "relatedMappings": [{
+        "mappingId": 14342452,
+        "timeMapped": "2008-09-29",
+        "uniprotRelease": "2018_06",
+        "ensemblRelease": "87",
+        "uniprotEntry": {
+          "uniprotAccession": "O013154",
+          "entryType": "Swiss-Prot",
+          "entryVersion": "105",
+          "sequenceVersion": "3",
+          "upi": "string",
+          "md5": "string",
+          "ensemblDerived": "false",
+          "isoform": "false"
+        },
+        "ensemblTranscript": {
+          "enstId": "ENSTALT00003",
+          "enstVersion": "3",
+          "upi": "string",
+          "biotype": "string",
+          "deleted": "true",
+          "seqRegionStart": "3",
+          "seqRegionEnd": "3",
+          "ensgId": "ENSGALG00003"
+        },
+        "status": "UNDER_REVIEW"
+      }]
+    }
+  ],
+  "search": {
+    "total": 3,
+    "offset": 1,
+    "limit": 10,
+    "results": [{
+        "id": "1",
+        "taxonomy": {
+          "specie": "Gallus Gallus",
+          "ensemblTaxId": "9031",
+          "uniprotTaxId": "9031"
+        },
+        "entryMappings": [{
+          "mappingId": 1434352,
           "timeMapped": "2008-09-29",
           "uniprotRelease": "2018_06",
           "ensemblRelease": "87",
+          "status": "UNDER_REVIEW",
+          "lastStatusChange": {
+            "from": "UNREVIEWED",
+            "user": "user-111",
+            "date": "2018-05-18"
+          },
           "uniprotEntry": {
-            "uniprotAccession": "O013154",
+            "uniprotAccession": "P02469",
             "entryType": "Swiss-Prot",
             "entryVersion": "105",
             "sequenceVersion": "3",
@@ -144,85 +185,32 @@
             "isoform": "false"
           },
           "ensemblTranscript": {
-            "enstId": "ENSTALT00003",
+            "enstId": "ENSTALT00001",
             "enstVersion": "3",
             "upi": "string",
             "biotype": "string",
             "deleted": "true",
             "seqRegionStart": "3",
             "seqRegionEnd": "3",
-            "ensgId": "ENSGALG00003"
+            "ensgId": "ENSGALG00001"
           },
-          "status": "UNDER_REVIEW"
-        }
-      ]
-    }
-  ],
-  "search": {
-    "total": 3,
-    "offset": 1,
-    "limit": 10,
-    "results": [
-      {
-        "id": "1",
-        "taxonomy": {
-          "specie": "Gallus Gallus",
-          "ensemblTaxId": "9031",
-          "uniprotTaxId": "9031"
-        },
-        "entryMappings": [
-          {
-            "mappingId": 1434352,
-            "timeMapped": "2008-09-29",
-            "uniprotRelease": "2018_06",
-            "ensemblRelease": "87",
-            "status": "UNDER_REVIEW",
-            "lastStatusChange": {
-              "from": "UNREVIEWED",
-              "user": "user-111",
-              "date": "2018-05-18"
+          "comments": [{
+              "text": "This is a really nice mapping",
+              "timeAdded": "2008-11-15",
+              "user": "user-222"
             },
-            "uniprotEntry": {
-              "uniprotAccession": "P02469",
-              "entryType": "Swiss-Prot",
-              "entryVersion": "105",
-              "sequenceVersion": "3",
-              "upi": "string",
-              "md5": "string",
-              "ensemblDerived": "false",
-              "isoform": "false"
-            },
-            "ensemblTranscript": {
-              "enstId": "ENSTALT00001",
-              "enstVersion": "3",
-              "upi": "string",
-              "biotype": "string",
-              "deleted": "true",
-              "seqRegionStart": "3",
-              "seqRegionEnd": "3",
-              "ensgId": "ENSGALG00001"
-            },
-            "comments": [
-              {
-                "text": "This is a really nice mapping",
-                "timeAdded": "2008-11-15",
-                "user": "user-222"
-              },
-              {
-                "text": "It's not so good actually",
-                "timeAdded": "2008-11-15",
-                "user": "user-333"
-              }
-            ],
-            "labels": [
-              {
-                "text": "thingy",
-                "timeAdded": "2017-05-15",
-                "user": "user-111"
-              }
-            ]
-          }
-        ]
+            {
+              "text": "It's not so good actually",
+              "timeAdded": "2008-11-15",
+              "user": "user-333"
+            }
+          ],
+          "labels": [{
+            "text": "thingy",
+            "timeAdded": "2017-05-15",
+            "user": "user-111"
+          }]
+        }]
       },
       {
         "id": "2",
@@ -231,8 +219,7 @@
           "ensemblTaxId": "9031",
           "uniprotTaxId": "9031"
         },
-        "entryMappings": [
-          {
+        "entryMappings": [{
             "mappingId": 14342452,
             "timeMapped": "2008-09-29",
             "uniprotRelease": "2018_06",
@@ -295,8 +282,7 @@
           "ensemblTaxId": "9031",
           "uniprotTaxId": "9031"
         },
-        "entryMappings": [
-          {
+        "entryMappings": [{
             "mappingId": 14344452,
             "timeMapped": "2008-09-29",
             "uniprotRelease": "2018_06",
@@ -359,43 +345,39 @@
           "ensemblTaxId": "9031",
           "uniprotTaxId": "9031"
         },
-        "entryMappings": [
-          {
-            "mappingId": 14344453,
-            "timeMapped": "2008-09-29",
-            "uniprotRelease": "2018_06",
-            "ensemblRelease": "87",
-            "uniprotEntry": {
-              "uniprotAccession": "P02460_2",
-              "entryType": "Swiss-Prot",
-              "entryVersion": "105",
-              "sequenceVersion": "3",
-              "upi": "string",
-              "md5": "string",
-              "ensemblDerived": "false",
-              "isoform": "false"
-            },
-            "ensemblTranscript": {
-              "enstId": "ENSTALT00005",
-              "enstVersion": "3",
-              "upi": "string",
-              "biotype": "string",
-              "deleted": "true",
-              "seqRegionStart": "3",
-              "seqRegionEnd": "3",
-              "ensgId": "ENSGALG00005"
-            },
-            "status": "REJECTED"
-          }
-        ]
+        "entryMappings": [{
+          "mappingId": 14344453,
+          "timeMapped": "2008-09-29",
+          "uniprotRelease": "2018_06",
+          "ensemblRelease": "87",
+          "uniprotEntry": {
+            "uniprotAccession": "P02460_2",
+            "entryType": "Swiss-Prot",
+            "entryVersion": "105",
+            "sequenceVersion": "3",
+            "upi": "string",
+            "md5": "string",
+            "ensemblDerived": "false",
+            "isoform": "false"
+          },
+          "ensemblTranscript": {
+            "enstId": "ENSTALT00005",
+            "enstVersion": "3",
+            "upi": "string",
+            "biotype": "string",
+            "deleted": "true",
+            "seqRegionStart": "3",
+            "seqRegionEnd": "3",
+            "ensgId": "ENSGALG00005"
+          },
+          "status": "REJECTED"
+        }]
       }
     ],
-    "facets": [
-      {
+    "facets": [{
         "name": "status",
         "label": "Status",
-        "items": [
-          {
+        "items": [{
             "name": "UNREVIEWED",
             "label": "Unreviewed"
           },
@@ -416,8 +398,7 @@
       {
         "name": "organism",
         "label": "Organism",
-        "items": [
-          {
+        "items": [{
             "name": "9606",
             "label": "Homo sapiens",
             "active": true
@@ -439,8 +420,7 @@
       {
         "name": "sequence",
         "label": "Sequence",
-        "items": [
-          {
+        "items": [{
             "name": "exact",
             "label": "Exact match"
           },
@@ -458,10 +438,13 @@
       {
         "name": "mappings",
         "label": "Type",
-        "items": [
+        "items": [{
+            "name": "UniProt_unmapped",
+            "label": "UniProt unmapped"
+          },
           {
-            "name": "unmapped",
-            "label": "Unmapped"
+            "name": "ENST_unmapped",
+            "label": "ENST unmapped"
           },
           {
             "name": "mult_ENST",
@@ -475,8 +458,7 @@
       }
     ]
   },
-  "users": [
-    {
+  "users": [{
       "id": "user-111",
       "name": "Bob"
     },
