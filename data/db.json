@@ -64,7 +64,7 @@
       },
       "relatedMappings": [
         {
-          "mappingId": 14326752,
+          "mappingId": 4356794,
           "timeMapped": "2008-09-29",
           "uniprotRelease": "2018_06",
           "ensemblRelease": "87",
@@ -129,7 +129,7 @@
       },
       "relatedMappings": [
         {
-          "mappingId": 14342452,
+          "mappingId": 4356794,
           "timeMapped": "2008-09-29",
           "uniprotRelease": "2018_06",
           "ensemblRelease": "87",
@@ -260,7 +260,7 @@
             "status": "UNDER_REVIEW"
           },
           {
-            "mappingId": 143438762,
+            "mappingId": 4356794,
             "timeMapped": "2008-09-29",
             "uniprotRelease": "2018_06",
             "ensemblRelease": "87",
