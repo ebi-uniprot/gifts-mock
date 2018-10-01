@@ -26,3 +26,16 @@ Note: need to work out sequences.
 
 ### /gifts/comments/{mapping_id}
 Return all comments for a given mapping.
+
+### /gifts/stats
+Return some basic statistics about the number of mappings:
+- Total number
+- Breakdown of 
+  - Unreviewed
+  - Under review
+  - Reviewed
+  - Rejected
+
+
+### /gifts/labels
+Get a list of possible labels
